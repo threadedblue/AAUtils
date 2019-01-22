@@ -1,6 +1,4 @@
 module AssocUtils
-    import D4M 
-    import DataFrame
-    include("ispediatric.jl")
+    import D4M, DataFrames
     include("assoc2df.jl")
 end
