@@ -1,5 +1,5 @@
-import D4M
-function out(A::Assoc)::DataFrame
+import D4M, DataFrames
+function assoc2df(A::Assoc)::DataFrame
     c = getcol(A)
     dataFrame = convert(DataFrame, D4M.full(M))
     Cols1 = names(dataFrame)

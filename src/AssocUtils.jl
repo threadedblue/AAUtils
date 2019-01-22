@@ -1,4 +1,5 @@
 module AssocUtils
     import D4M, DataFrames
-    include("assoc2df.jl")
+
+    export assoc2df
 end
