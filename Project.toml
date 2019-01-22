@@ -1,7 +1,8 @@
 name = "AssocUtils"
 uuid = "805b5154-e8fb-11e8-077b-03e1cb94bb77"
-authors = ["Geoffry Roberts <threaded@gmail.com>"]
+authors = []
 version = "0.1.0"
 
 [deps]
+D4M = "ca196bdc-a701-11e8-3d50-3b5cc8577617"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
