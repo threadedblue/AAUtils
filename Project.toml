@@ -1,4 +1,4 @@
-name = "AssocUtils"
+name = "AAUtils"
 uuid = "805b5154-e8fb-11e8-077b-03e1cb94bb77"
 authors = ["Geoffry Roberts <threadedblue@gmail.com>"]
 version = "0.1.0"
