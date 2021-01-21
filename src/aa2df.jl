@@ -7,7 +7,10 @@ function aa2df(A::Assoc)::DataFrame
     df = convert(DataFrame, D4M.full(A))
     Cols1 = names(df)
     Cols2 = D4M.getcol(A)
-    prepend!(Cols2, "")
+    @debug "size(Cols1)=" * string(size(Cols1))
+    @debug "size(Cols2)before=" * string(size(Cols2))
+    prepend!(Cols2, [""])
+    @debug "size(Cols2)after=" * string(size(Cols2))
     rename!(df, Dict(Cols1 .=> Cols2))
     deleterows!(df, 1)
     return df
